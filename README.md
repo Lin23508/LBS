@@ -13,11 +13,6 @@ However, existing RS approaches suffer from two major practical limitations:
 
 To address both issues, we propose **Laplace-Bridged Smoothing (LBS)**, a fast and post-hoc certified robustness framework that significantly reduces certification cost while eliminating reliance on noise-augmented training.
 
----
-
-
----
-
 ## Base Classifier Training (Randomized Smoothing)
 
 The training of the base classifier in this repository **directly builds upon the official Randomized Smoothing implementation** from:
@@ -45,19 +40,19 @@ After a base classifier is trained without noise augmentation, LBS can be direct
 
 The main entry point for LBS inference and certification is:
 
-```bash
+```
 python lbs-inference/certification_l2.py
 
 python lbs-inference/certification_l1.py
 
 python lbs-inference/certification_l_infinity.py
-
+```
 ## Plotting and Visualization
 
 To visualize certified robustness results produced by LBS, using:
 
-```bash
+```
 python lbs-inference/plot.py
-
+```
 
 

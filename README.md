@@ -13,7 +13,7 @@ However, existing RS approaches suffer from two major practical limitations:
 
 To address both issues, we propose **Laplace-Bridged Smoothing (LBS)**, a fast and post-hoc certified robustness framework that significantly reduces certification cost while eliminating reliance on noise-augmented training.
 
-## Base Classifier Training (Randomized Smoothing)
+## Base Classifier Training (RS)
 
 The training of the base classifier in this repository **directly builds upon the official Randomized Smoothing implementation** from:
 

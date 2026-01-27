@@ -15,7 +15,7 @@ To address both issues, we propose **Laplace-Bridged Smoothing (LBS)**, a fast a
 
 ## Base Classifier Training (RS)
 
-The training of the base classifier in this repository **directly builds upon the official Randomized Smoothing implementation** from:
+The training of the base classifier in this repository **directly builds upon the RS implementation** from:
 
 > **Cohen et al., "Certified Adversarial Robustness via Randomized Smoothing", ICML 2019**  
 > https://github.com/locuslab/smoothing
